@@ -14,33 +14,105 @@
 }
 
 .upload-box {
-  width: 200px;
-  height: 70px;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  margin: -35px 0 0 -100px;
-  text-align: center;
-  background: #364fc7;
+  display: inline;
+  padding: 15px 30px;
+  background: #000;
+  border: none;
   color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.loading-box {
+  margin-top: 50px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
+  display: none;
 }
 
-.loading-box {
-  width: 200px;
-  height: 70px;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  margin: -35px 0 0 -100px;
-  text-align: center;
+header {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  -webkit-box-shadow: -3px 24px 12px -34px #333333;
+  box-shadow: -3px 24px 12px -34px #333333;
+}
+#logo {
+  font-size: 25px;
+  font-family: "DM Mono";
+  font-weight: bold;
+  margin-right: 20px;
+  flex: 1;
+}
+.menu {
+  list-style: none;
+}
 
+.menu ul {
+  list-style: none;
+}
+.button {
+  padding: 15px 30px;
+  background: #000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+li {
+  margin-left: 30px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: rgb(10, 9, 9);
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.wrapper {
+  padding: 50px;
+  box-sizing: border-box;
+}
+.content {
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  display: flex;
+}
+.flow-image {
+  width: 500px;
+}
+.flex-wrapper {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: none;
+  box-sizing: border-box;
+}
+
+.border {
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  margin: 10px 0;
+}
+
+.text {
+  margin: 10px 0 45px 0;
 }
